@@ -62,10 +62,10 @@ A component is composed of 4 things, with only the template being required
 * styles
 
 ### Routing
-Routing is essentially a list of URL defenitions that map to a component. The components is identified by its template name. Flow Router lets us define 2 types of routes, static and dynamic. Under the hood, client side routing is achieved using the HTML5 History API. 
+Routing is essentially a list of URL defenitions that map to a component. The component is identified by its template name. Flow Router lets us define 2 types of routes, static and dynamic. Under the hood, client side routing is achieved using the HTML5 History API. 
 
 #### Static Routes
-A static routes are very straightforward and do not contain parameters. e.g. If route is "/articles", render the template named "articles". With Flow Router, this route would look like this:
+Static routes are very straightforward and do not contain parameters. e.g. If route is "/articles", render the template named "articles". With Flow Router, this route would look like this:
 ```
 FlowRouter.route('/articles', {
   action: function() {
@@ -75,7 +75,7 @@ FlowRouter.route('/articles', {
 ```
 
 ### Dynamic Routes
-Dynamic Routes allow us to pass parameters into the URL. In a route definition, parameters are identified by ":". e.g. If our route definition is "/articles/:articleId", and our route is "/articles/123", the "articleId" parameter is "123".  
+Dynamic Routes allow us to pass parameters into the URL. In a route definition, parameters are identified by a colon ":". e.g. If our route definition is "/articles/:articleId", and our route is "/articles/123", the "articleId" parameter is "123".  
 
 A popular patten in Meteor is to pass a mongo document's ID as a parameter. In our article example, this would identify which article in the DB we want to render. The following route defenition shows how we would render an individual article.
 ```
