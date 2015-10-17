@@ -6,9 +6,9 @@ git clone https://github.com/polished85/flow-router-intro
 ```
 
 ##Dependencies
-* fourseven:scss
-* kadira:flow-router
-* kadira:blaze-layout
+* [fourseven:scss](https://atmospherejs.com/fourseven/scss)
+* [kadira:flow-router](https://atmospherejs.com/kadira/flow-router)
+* [kadira:blaze-layout](https://atmospherejs.com/kadira/blaze-layout)
 
 ##Project Structure
 A component based structure gives the developer a clear high level overview of the app, and makes it easier to map routes to a component.
