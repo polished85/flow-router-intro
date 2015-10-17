@@ -13,41 +13,41 @@ kadira:blaze-layout
 ##Project Structure
 A component based structure gives the developer a clear high level overview of the app, and makes it easier to map routes to a component.
 
-/ app
+/ app  
 
------ / both
----------- / models
---------------- / articles.js
+----- / both  
+---------- / models  
+--------------- / articles.js  
 
------ / client
----------- / layout.html
----------- / subscriptions.html
----------- / components
---------------- / header
--------------------- / header.html
--------------------- / events.js
--------------------- / helpers.js
--------------------- / styles.scss
---------------- / articles
--------------------- / articles.html
--------------------- / events.js
--------------------- / helpers.js
--------------------- / styles.scss
---------------- / article
--------------------- / article.html
--------------------- / events.js
--------------------- / helpers.js
--------------------- / styles.scss
----------- / lib
---------------- / routes.js
---------------- / scss
--------------------- / app.scss
--------------------- / bootstrap4
--------------------- / components
+----- / client  
+---------- / layout.html  
+---------- / subscriptions.html  
+---------- / components  
+--------------- / header  
+-------------------- / header.html  
+-------------------- / events.js  
+-------------------- / helpers.js  
+-------------------- / styles.scss  
+--------------- / articles  
+-------------------- / articles.html  
+-------------------- / events.js  
+-------------------- / helpers.js  
+-------------------- / styles.scss  
+--------------- / article  
+-------------------- / article.html  
+-------------------- / events.js  
+-------------------- / helpers.js  
+-------------------- / styles.scss  
+---------- / lib  
+--------------- / routes.js  
+--------------- / scss  
+-------------------- / app.scss  
+-------------------- / bootstrap4  
+-------------------- / components  
 
------ / public
----------- / img
----------- / fonts
+----- / public  
+---------- / img  
+---------- / fonts  
 
 ----- / server
 ---------- / methods.js
