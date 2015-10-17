@@ -49,10 +49,10 @@ A component based structure gives the developer a clear high level overview of t
 ---------- / img  
 ---------- / fonts  
 
------ / server
----------- / methods.js
----------- / publications.js
----------- / startup.js
+----- / server  
+---------- / methods.js  
+---------- / publications.js  
+---------- / startup.js  
 
 ### Component
 A component is composed of 4 things, with only the template being required
