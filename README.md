@@ -2,7 +2,7 @@
 
 ##Get Started 
 ```
-git clone https://github.com/polished85/flow-router-intro
+git clone git@github.com:polished85/flow-router-intro.git
 ```
 
 ##Dependencies
