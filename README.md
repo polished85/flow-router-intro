@@ -13,47 +13,6 @@ git clone https://github.com/polished85/flow-router-intro
 ##Project Structure
 A component based structure gives the developer a clear high level overview of the app, and makes it easier to map routes to a component.
 
-/ app  
-
------ / both  
----------- / models  
---------------- / articles.js  
-
------ / client  
----------- / layout.html  
----------- / subscriptions.html  
----------- / components  
---------------- / header  
--------------------- / header.html  
--------------------- / events.js  
--------------------- / helpers.js  
--------------------- / styles.scss  
---------------- / articles  
--------------------- / articles.html  
--------------------- / events.js  
--------------------- / helpers.js  
--------------------- / styles.scss  
---------------- / article  
--------------------- / article.html  
--------------------- / events.js  
--------------------- / helpers.js  
--------------------- / styles.scss  
----------- / lib  
---------------- / routes.js  
---------------- / scss  
--------------------- / app.scss  
--------------------- / bootstrap4  
--------------------- / components  
-
------ / public  
----------- / img  
----------- / fonts  
-
------ / server  
----------- / methods.js  
----------- / publications.js  
----------- / startup.js  
-
 ### Component
 A component is composed of 4 things, with only the template being required
 * a template
